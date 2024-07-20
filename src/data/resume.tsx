@@ -173,7 +173,7 @@ export const DATA = {
     },
     {
       school: "The International School System",
-      // href: "https://wlu.ca",
+      href: "https://wlu.ca",
       degree: "Matriculation ( Science )",
       logoUrl: "/waterloo.png",
       start: "2013",
