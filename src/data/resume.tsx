@@ -82,6 +82,18 @@ export const DATA = {
 
   work: [
     {
+      company: "SIEMENS ENERGY",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Engineer",
+      logoUrl: "/tt.png",
+      start: "August 2024",
+      end: "Current",
+      description:
+        `I am a Junior Frontend Developer with experience in modifying code, fixing bugs, and updating user interfaces to enhance functionality and design. I am skilled in optimizing front-end performance and ensuring smooth, user-friendly experiences. My role involves writing clear and concise documentation to support development and maintenance processes. I have a keen eye for detail and a passion for improving web applications. I am eager to contribute to innovative projects and continuously expand my skills.`,
+    },
+    {
       company: "Trade Tracker Company",
       href: "https://tradetracker.com.pk/",
       badges: [],
