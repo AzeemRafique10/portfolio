@@ -216,13 +216,13 @@ export const DATA = {
         "FontAwesome",
         "BootStrap",
       ],
-      // links: [
-      //   {
-      //     type: "Website",
-      //     href: "N/A",
-      //     icon: <Icons.globe className="size-3" />,
-      //   },
-      // ],
+      links: [
+        {
+          type: "",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "/pppplaner.mp4",
     },
