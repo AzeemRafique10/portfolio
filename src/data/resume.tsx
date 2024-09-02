@@ -87,11 +87,10 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Frontend Engineer",
-      logoUrl: "/tt.png",
+      logoUrl: "/public/siemens.svg",
       start: "August 2024",
       end: "Current",
-      description:
-        `I am a Junior Frontend Developer with experience in modifying code, fixing bugs, and updating user interfaces to enhance functionality and design. I am skilled in optimizing front-end performance and ensuring smooth, user-friendly experiences. My role involves writing clear and concise documentation to support development and maintenance processes. I have a keen eye for detail and a passion for improving web applications. I am eager to contribute to innovative projects and continuously expand my skills.`,
+      description: `I am a Junior Frontend Developer with experience in modifying code, fixing bugs, and updating user interfaces to enhance functionality and design. I am skilled in optimizing front-end performance and ensuring smooth, user-friendly experiences. My role involves writing clear and concise documentation to support development and maintenance processes. I have a keen eye for detail and a passion for improving web applications. I am eager to contribute to innovative projects and continuously expand my skills.`,
     },
     {
       company: "Trade Tracker Company",
@@ -102,8 +101,7 @@ export const DATA = {
       logoUrl: "/tt.png",
       start: "April 2024",
       end: "July 2024",
-      description:
-        `Currently working at Trade Tracker. My responsibilities include fixing bugs, updating UI, and implementing new logic across three websites, including Nestle, Intradoors.com, and Trade Tracker's own site. Additionally, monitor and resolve issues in database service requests.`,
+      description: `Currently working at Trade Tracker. My responsibilities include fixing bugs, updating UI, and implementing new logic across three websites, including Nestle, Intradoors.com, and Trade Tracker's own site. Additionally, monitor and resolve issues in database service requests.`,
     },
     {
       company: "Freelancer",
@@ -202,14 +200,41 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "PPP Planer",
+      href: "N/A",
+      dates: "August 2024",
+      active: true,
+      description:
+        "I worked on the PPP Planner website, adding new features using React, Vite, TypeScript, and TailwindCSS. I implemented Clerk Authentication to enhance security and streamlined the user experience. Additionally, I improved the UI and redesigned the navigation bar for better accessibility and performance. These updates significantly enhanced the functionality and usability of the web application.",
+      technologies: [
+        "React.JS",
+        "Typescript",
+        "Node.JS",
+        "Mertial UI",
+        "TailWindCSS",
+        "HTML & CSS",
+        "FontAwesome",
+        "BootStrap",
+      ],
+      // links: [
+      //   {
+      //     type: "Website",
+      //     href: "N/A",
+      //     icon: <Icons.globe className="size-3" />,
+      //   },
+      // ],
+      image: "",
+      video: "/pppplaner.mp4",
+    },
+    {
       title: "Alkazi Traders",
       href: "https://intradoors.com/",
       dates: "March 2024",
       active: true,
       description:
-        "Develope Website with Angular V14, [Intradoors](https://intradoors.com/), ",
+        "I developed the Intradoors website using Angular, focusing on creating a robust and dynamic user interface. The project utilized a range of technologies, including AngularJS, TypeScript, and Node.js for seamless functionality. The design was enhanced with Material UI, Sass, and Bootstrap, ensuring a responsive and visually appealing layout. Additionally, I integrated FontAwesome icons and structured the content with HTML to provide a comprehensive and user-friendly experience.",
       technologies: [
-        "React.JS",
+        "Angular.JS",
         "Typescript",
         "Node.JS",
         "Mertial UI",
@@ -226,16 +251,14 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/video1.mp4",
+      video: "/video1.mp4",
     },
     {
       title: "Nestle Merchandiser",
       href: "http://mmaplus.concavetech.com/dist/#/dashboard/tableau",
       dates: "June 2024",
       active: true,
-      description:
-        "Fix Bugs, design 3 components, Update, make more Secure",
+      description: "Fix Bugs, design 3 components, Update, make more Secure",
       technologies: [
         "Angular.JS",
         "Typescript",
@@ -266,8 +289,7 @@ export const DATA = {
       href: "https://landing-page-alpha-five-88.vercel.app/",
       dates: "February 2024",
       active: true,
-      description:
-        "Make landing page With React during Internship",
+      description: "Make landing page With React during Internship",
       technologies: [
         "React.JS",
         "JavaScript",
@@ -298,8 +320,7 @@ export const DATA = {
       href: "https://calculator-react-raqt1di2d-jamz47s-projects.vercel.app/",
       dates: "February 2024",
       active: true,
-      description:
-        "Make Calculator With React.JS during Internship",
+      description: "Make Calculator With React.JS during Internship",
       technologies: [
         "React.JS",
         "JavaScript",
@@ -318,16 +339,14 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/video3.mp4",
+      video: "/video3.mp4",
     },
     {
       title: "Final Year Project University Social Application",
       href: "https://calculator-react-raqt1di2d-jamz47s-projects.vercel.app/",
       dates: "February 2024",
       active: true,
-      description:
-        "This Social Applicaion I develope and Submit on FYP",
+      description: "This Social Applicaion I develope and Submit on FYP",
       technologies: [
         "React Native",
         "JavaScript",
@@ -339,7 +358,7 @@ export const DATA = {
         "React BootStrap",
         "FireBase",
         "Navigation",
-        "React BootStrap"
+        "React BootStrap",
       ],
       links: [
         {
@@ -349,8 +368,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "/public/fcc.png",
+      video: "/public/fcc.png",
     },
   ],
   hackathons: [
